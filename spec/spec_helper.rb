@@ -20,6 +20,7 @@ require 'webdrivers'
 require 'pry'
 require 'site_prism'
 require_relative 'pages/home.rb'
+require_relative 'pages/login.rb'
 require_relative 'config/config.rb'
 
 RSpec.configure do |config|
