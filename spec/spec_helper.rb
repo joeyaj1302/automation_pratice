@@ -22,6 +22,7 @@ require 'site_prism'
 require_relative 'pages/home.rb'
 require_relative 'pages/login.rb'
 require_relative 'config/config.rb'
+require_relative 'sections/shopping.rb'
 
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
