@@ -28,6 +28,7 @@ RSpec.configure do |config|
   # assertion/expectation library such as wrong or the stdlib/minitest
   # assertions if you prefer.
   include AUTOMATIONPRACTICE
+  include SHAREDSECTION
   capybara_application_url_set_up
   capybara_test_configuration
   config.expect_with :rspec do |expectations|
